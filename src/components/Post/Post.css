@@ -1,0 +1,39 @@
+.Post {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  background-color: white;
+}
+.Post__header,
+.Post__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.Post__user {
+  display: flex;
+  align-items: center;
+}
+
+.Post__user > :not(:last-child) {
+  margin-right: 1rem;
+}
+.Post__user-avatar {
+  overflow: hidden;
+  width: 35px;
+  height: 35px;
+  border-radius: 1000px;
+}
+.Post__user-nickname {
+  font-weight: bold;
+}
+
+.Post__image {
+}
+
+.Post__footer {
+}
+
+.Post__caption {
+}

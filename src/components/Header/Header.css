@@ -1,0 +1,37 @@
+.Nav {
+  display: flex;
+  align-items: center;
+  height: 77px;
+  width: 100%;
+  padding: 0 12rem;
+  background-color: #fff;
+  color: #262626;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  -webkit-transition: height 0.2s ease-in-out;
+  transition: height 0.2s ease-in-out;
+}
+
+.Nav-menus {
+  display: flex;
+  height: 77px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 26px 40px;
+}
+
+.Nav-brand-logo {
+  display: flex;
+  align-items: center;
+}
+
+.Nav-brand-divider {
+  background-color: rgba(38, 38, 38, 1);
+  height: 28px;
+  margin: 0 16px;
+  -webkit-transition: opacity 0.1s ease-out;
+  transition: opacity 0.1s ease-out;
+  width: 1px;
+}
